@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  width: 100%;
+  font-family: 'Arimo', sans-serif;
+}
+
+h1 {
+  color: #008000;
+  font-size: 3rem;
+}
+
+.header p {
+  font-size: 1.5rem;
+}
+
+#button {
+  background-color: #da1219;
+  color: #fff;
+  border: 1px solid #da1219;
+  border-radius: 12px;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 4px 10px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#button:hover {
+  background-color: #fff;
+  color: #008000;
+  border: 1px solid #008000;
+}
+
+#mapid {
+  height: 100%;
+}
+
+.infoBox {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 450px) {
+  .header p, h1 {
+    padding: 0 0.6rem;
+    margin: 1rem;
+  }
+
+  #button {
+    margin: 0.125rem;
+    font-size: 1rem;
+  }
+}
